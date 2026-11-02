@@ -1,5 +1,4 @@
 # ANCORATE EncryptKey
 
-Device-bound key and secret manager (planned).
-
-This repository currently contains project structure and CI/CD workflows.
+**EncryptKey 27.0 — Key Manager**
+A local desktop app for encrypted key/password vaults: folders, search, secure clipboard, and device-bound encryption.
