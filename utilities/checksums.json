@@ -1,0 +1,20 @@
+{
+    "app/__init__.py": "7c32bfeb13fcfe2e1ea8db0bf787c00bad37ee5b8f395c5e99e47e3b15260117",
+    "app/core.py": "0bfe148d487d2a2883bb6d2f0a3ab74af36c2b4b48ed8eb0eef39e4835b4f862",
+    "app/dialogs.py": "099f13fd51f195c8ecdb85a218ed85902d43c213edeb1754b7ab127053979106",
+    "app/main_window.py": "ea5c42e6c72f31c3bb861153ad34522280af2dd6450344857fb4a86505876fa8",
+    "app/passwords.py": "6169af8b57104e841420dc5f33234d4611e33c94296d78a866d6e387be3445d0",
+    "app/workers.py": "26559f281eef0b2e0c4a953ddc58321c09e6a17e79c644aa8662c87a2be99ad2",
+    "base.py": "03cee91927ac8fda40ca9ecb690837d1acbfa65b894d02563dfd81da97de1036",
+    "decrypt.py": "346d32562de66ceab1031445c7fc988db40726532adfdafff85c35b511f3783a",
+    "decrypt_preview.py": "a2c56e36dba4689a25e778b64e80613d75b3f91565284b4624aa44e60d685a93",
+    "encrypt.py": "1e2864415921634b783cde6b363123c720573a776abf4db38859393bdc593d2c",
+    "main.py": "0666b07bb7e66a6539af01f3963d84b8add8ff1778d37064b0edff668ce088c5",
+    "utilities/checksum_check.py": "0bb5887d315469a86755df142c1c13cbd08c091ee7d34335fc81792d0c74962b",
+    "utilities/header_utils.py": "79912596f9ae8c6a6c5e944d8efd94059a4f1f86ad77403cc5bf0f9080471c90",
+    "utilities/screenshot_protection.py": "e26a9ca7affe892774f94156c3f024ff34c3f1103e3a4b669b90895f1d1d7dbf",
+    "utilities/settings.py": "91137bbfe3ce853482d8eea86f824872e4480600ecc0bdc65a39f74c60155089",
+    "utilities/sos_delete.py": "eb55a5b178bef295166da5acc6e008898694dd605c91585659a2982648b1134c",
+    "utilities/theme_engine.py": "553ac66f8768eab51fdac3d2d7f8d0f6a984d4466baf002d7ab6d7766f4efdec",
+    "utilities/updater.py": "5450595bb0f954eaa1b1442fdc9060bf558a607d8df84181a3a18b856342617f"
+}
