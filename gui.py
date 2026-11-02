@@ -79,6 +79,7 @@ class KeyManagerWindow(QMainWindow):
         self.lock_btn = QPushButton("Sperren")
         self.add_btn = QPushButton("Eintrag hinzufügen")
         self.add_folder_btn = QPushButton("Ordner hinzufügen")
+        self.settings_btn = QPushButton("Einstellungen")
         self.search_edit = QLineEdit()
         self.search_edit.setPlaceholderText("Suchen…")
         bar.addWidget(self.open_btn)
@@ -86,6 +87,7 @@ class KeyManagerWindow(QMainWindow):
         bar.addWidget(self.lock_btn)
         bar.addWidget(self.add_btn)
         bar.addWidget(self.add_folder_btn)
+        bar.addWidget(self.settings_btn)
         bar.addWidget(self.search_edit)
         root.addLayout(bar)
 
@@ -109,6 +111,7 @@ class KeyManagerWindow(QMainWindow):
         self.lock_btn.clicked.connect(self.lock_vault)
         self.add_btn.clicked.connect(self.add_entry)
         self.add_folder_btn.clicked.connect(self.add_folder)
+        self.settings_btn.clicked.connect(self.open_settings)
         self.folder_list.currentTextChanged.connect(self.refresh_entries)
         self.search_edit.textChanged.connect(self.refresh_entries)
         self.entry_table.cellDoubleClicked.connect(self.copy_password)
@@ -199,6 +202,13 @@ class KeyManagerWindow(QMainWindow):
         self.entry_table.setRowCount(0)
         self._lock_ui(True)
         self.status.setText("Vault gesperrt.")
+
+    def open_settings(self):
+        from utilities.settings import SettingsDialog
+        dlg = SettingsDialog(self)
+        dlg.setWindowTitle("Einstellungen")
+        dlg.resize(900, 600)
+        dlg.show()
 
     def _refresh_folders(self):
         self.folder_list.clear()
